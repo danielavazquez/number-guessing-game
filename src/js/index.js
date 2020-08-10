@@ -1,15 +1,5 @@
-//*1 Bring in all DOM elements msgE1 is what we'll speak into mike
-//*2 create getRandomNumber function
-//*3
-//*4
-//*5
-//*6
-//*7
-
-
 const msgEl = document.getElementById('msg');
 
-//2
 const randomNum = getRandomNumber();
 
 console.log('Number:', randomNum);
@@ -68,7 +58,7 @@ function checkNumber(msg) {
   }
 }
 
-//2 Generate random number
+// Generate random number
 function getRandomNumber() {
   return Math.floor(Math.random() * 100) + 1;
 }
